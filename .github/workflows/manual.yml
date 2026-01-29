@@ -32,3 +32,7 @@ jobs:
       run: |
         echo "Hello ${{ inputs.name }}"
         echo "hello ${{ inputs.bvk }}"
+        if [true];
+        than
+          exit 1;
+        fi
